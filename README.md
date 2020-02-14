@@ -1,2 +1,8 @@
-# cs_bot
-Statistics And Computer Science (Bot)
+# Statistics And Computer Science (Bot)
+
+### python version
+3.7.6
+### library used
+telegram.ext
+requests
+
