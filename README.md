@@ -1,8 +1,15 @@
 # Statistics And Computer Science (Bot)
 
-### python version
+### Python Verion
 3.7.6
-### library used
-telegram.ext
-requests
 
+---
+
+### Library Used
+
+* [telegram.ext](https://pypi.org/project/requests/)
+
+    > $ pip install python-telegram-bot
+* [requests](https://pypi.org/project/python-telegram-bot/)
+
+    >$ pip install requests
