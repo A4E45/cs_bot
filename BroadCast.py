@@ -13,8 +13,6 @@ with open("users.txt", "r", encoding="utf-8") as file:
 		message = """ <Message> """  # The message that will send to the users
 		params = {"chat_id": result[0], "text": message}
 		response = requests.post(url + "sendMessage", data=params)
-		print("\n")
-		print(response.status_code)
 		if response.status_code == 200:
 			print(response.status_code)
 			print(f"The message has been send to id={result}")
